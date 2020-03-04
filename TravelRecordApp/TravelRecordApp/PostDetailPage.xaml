@@ -4,16 +4,12 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="TravelRecordApp.NewTravelPage">
-    <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Save" 
-                     Clicked="ToolbarItem_Clicked"/>
-    </ContentPage.ToolbarItems>
-    
+             x:Class="TravelRecordApp.PostDetailPage">
     <ContentPage.Content>
         <StackLayout>
-            <Entry x:Name="experienceEntry"
-                   Placeholder="Write your experinece"/>
+            <Entry x:Name="experienceEntry" />
+            <Button x:Name="updateButton" Text="Update" Clicked="UpdateButton_Clicked"/>
+            <Button x:Name="deletButton" Text="Delete" Clicked="DeletButton_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

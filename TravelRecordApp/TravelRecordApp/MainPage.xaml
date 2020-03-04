@@ -6,7 +6,7 @@
              mc:Ignorable="d"
              x:Class="TravelRecordApp.MainPage">
 
-    <StackLayout VerticalOptions="Center" 
+    <StackLayout VerticalOptions="Center"
                  Margin="20,0">
         <Entry x:Name="EmailEntry" Placeholder="Email address"
                Keyboard="Email"/>
@@ -15,8 +15,9 @@
         <Button x:Name="LoginButton"
                 Margin="100,50,100,0"
                 CornerRadius="8"
-                Text="Log In" 
-                Clicked="LoginButton_Clicked"/>
+                Text="Log In"
+                Clicked="LoginButton_Clicked"
+                Style="{StaticResource normalButton}"/>
     </StackLayout>
 
 </ContentPage>
